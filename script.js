@@ -9,7 +9,7 @@ function validaArray(arr, num) {
             throw new TypeError("O Array precisa ser do tipo Object!");
         }
 
-        if (typeof num !== 'object') {
+        if (typeof num !== 'number') {
             throw new TypeError("O Num precisa ser do tipo Number!");
         }
 
